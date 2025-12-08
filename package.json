@@ -4,7 +4,7 @@
   "publishConfig": {
     "@sokomary:registry": "https://npm.pkg.github.com"
   },
-  "main": "index.js",
+  "main": "index.cjs",
   "scripts": {
     "build": "echo \"No build required\""
   },
