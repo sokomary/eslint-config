@@ -1,7 +1,7 @@
 const { defineConfig } = require('eslint/config');
 const react = require('eslint-plugin-react');
 const prettier = require('eslint-config-prettier');
-import unusedImports from 'eslint-plugin-unused-imports';
+const unusedImports = require('eslint-plugin-unused-imports');
 
 module.exports = defineConfig([
     {
