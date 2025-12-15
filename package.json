@@ -1,6 +1,6 @@
 {
   "name": "@sokomary/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publishConfig": {
     "@sokomary:registry": "https://npm.pkg.github.com"
   },
@@ -15,9 +15,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.0.1",
-    "typescript-eslint": "8.46.3"
-  },
-  "dependencies": {
+    "typescript-eslint": "8.46.3",
     "eslint-plugin-unused-imports": "^4.3.0"
   }
 }
