@@ -67,6 +67,20 @@ module.exports = defineConfig([
             'react/no-array-index-key': 'off',
             'react/prop-types': 'off',
             'react/require-default-props': 'off',
+
+            // 🔴 errors on unused imports
+            'unused-imports/no-unused-imports': 'error',
+
+            // 🟡 optional: unused variables, but allow `_`
+            'unused-imports/no-unused-vars': [
+                'warn',
+                {
+                    vars: 'all',
+                    varsIgnorePattern: '^_',
+                    args: 'after-used',
+                    argsIgnorePattern: '^_',
+                },
+            ],
         },
     },
 ]);
